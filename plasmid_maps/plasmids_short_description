@@ -1,0 +1,25 @@
+plasmid id	description	Experiment
+p053_PB_hU6_oBC	Tornado-Broccoli cassette with 16 nt BC and capture sequence 1 in piggyBac transposon. Complex library.	Pol III linear vs. circular barcode MPRA
+p054_PB_hU6_linBC	Tornado-Broccoli with truncated ribozyme cassette, with 16 nt BC and capture sequence 1, in piggyBac transposon. Complex library	Pol III linear vs. circular barcode MPRA
+		
+p025_PB_oBC_mBC	Doubly barcoded cloning dock with complete tornado barcode cassette, and restriction cloning sites for reporter and CRE integration. High complexity. Starting point for cloning. 	dual RNA reporter library construction
+		
+p027_PB_oBC_minP_puro_GFP_mBC	Double reporter library with minimal promoter puromycin-P2A-GFP in piggyBac transposon	dual RNA promoter series library
+p028_PB_oBC_EEF1A1p_puro_GFP_mBC	Double reporter library with EEF1A1 promoter puromycin-P2A-GFP in piggyBac transposon	dual RNA promoter series library
+p029_PB_oBC_noP_puro_GFP_mBC	Double reporter library with no promoter puromycin-P2A-GFP in piggyBac transposon	dual RNA promoter series library
+p041_PB_oBC_minP_puro_GFP_mBC	Double reporter library with UBC promoter puromycin-P2A-GFP in piggyBac transposon	dual RNA promoter series library
+p042_PB_oBC_minP_puro_GFP_mBC	Double reporter library with Pgk1 promoter puromycin-P2A-GFP in piggyBac transposon	dual RNA promoter series library
+		
+p043_PB_oBC_minP_GFP_mBC	Doubly barcoded dock with minP-GFP reporter integrated. Last intermediate step in cloning final library (p055) containing CREs 	dual RNA reporter library construction
+p055_PB_oBC_CRE_minP_GFP_mBC	Final library. Has random Ns sequence as CRE placeholder (actual diverse library of elements in actuality. 	dual RNA CRE library series
+		
+p003_PB_EEF1A1p_GFP	Quantification of mRNA levels driven by EEF1A1 promoter without Pol III cassette	assessing impact of Pol III cassette on Pol II expression
+p002_PB_minP_GFP	Quantification of mRNA levels driven by minimal promoter without Pol III cassette	assessing impact of Pol III cassette on Pol II expression
+		
+p022_PB_cloning_dock_mBC	piggyBac transposon cloning dock	miscellaneous cloning
+pAV-U6+27-Tornado-Broccoli	original Tornado plasmid from Litke and Jaffrey, 2019 (Addgene 124360).	miscellaneous cloning
+p051_PB_tornado	Tornado-Broccoli cassette in piggyBac transposon	miscellaneous cloning
+p052_PB_truncated_tornado	Tornado-Broccoli with truncated ribozyme cassette in piggyBac transposon	miscellaneous cloning
+p019_PB_oBC	Tornado-Broccoli cassette with 16 nt BC and capture sequence 1 in original Tornado plasmid backbone. 	miscellaneous cloning
+p060_PB_EEFA1_mCherry	EEF1A1p-mCherry piggyBac transposon for co-transfection and optimization of MOI	miscellaneous cloning
+p001_PB_MPRA_BM	piggyBac transposon with minP GFP	miscellaneous cloning
