@@ -1,0 +1,102 @@
+LOCUS       Exported                 193 bp DNA     linear   SYN 14-DEC-2021
+DEFINITION  .
+ACCESSION   .
+VERSION     .
+KEYWORDS    .
+SOURCE      synthetic DNA construct
+  ORGANISM  PCR product
+REFERENCE   1  (bases 1 to 193)
+  AUTHORS   MIT
+  TITLE     Direct Submission
+  JOURNAL   Exported Nov 18, 2022 from SnapGene 6.0.0
+            https://www.snapgene.com
+FEATURES             Location/Qualifiers
+     source          1..193
+                     /mol_type="other DNA"
+                     /organism="PCR product"
+     primer_bind     1..59
+                     /label=oJBL359-366
+                     /note="color: black; sequence: 
+                     aatgatacggcgaccaccgagatctacacIIIIIIatggacgagctgtacaagtgaacg
+                     ; added: 2021-12-14"
+     misc_feature    1..29
+                     /label=P5
+                     /note="color: #0000ff"
+     gap             30..35
+                     /label=idx
+                     /estimated_length=6
+                     /note="color: #ffff99"
+     misc_feature    36..159
+                     /label=Pol II reporter mRNA
+                     /note="color: #ffffff"
+     primer_bind     36..70
+                     /label=oJBL369
+                     /note="color: black; sequence: 
+                     ATGGACGAGCTGTACAAGTGAACGCGTTAAGTCGA; added: 2021-12-14"
+     primer_bind     complement(36..70)
+                     /label=oJBL370
+                     /note="color: black; sequence: 
+                     TCGACTTAACGCGTTCACTTGTACAGCTCGTCCAT; added: 2021-12-14"
+     misc_feature    36..56
+                     /label=EGFP
+                     /note="color: #b1ff67"
+     primer_bind     complement(36..53)
+                     /label=oJBL040
+                     /note="color: black; sequence: CTTGTACAGCTCGTCCATGC; added:
+                     2021-08-22"
+     primer_bind     complement(42..65)
+                     /label=oJBL254
+                     /note="color: black; sequence: TTAACGCGTTCACTTGTACAGCTC; 
+                     added: 2021-05-22"
+     misc_feature    45..56
+                     /label=GFP_C_term
+                     /note="color: #99cc00"
+     primer_bind     complement(49..145)
+                     /label=oJBL317
+                     /note="color: black; sequence: 
+                     AACCATTATAAGCTGCAATAAACAAGTTTAGNNNNNNNNNNNNNNNTCGACTTAACGCG
+                     TTCACTTGT; added: 2021-07-15"
+     gap             71..85
+                     /label=BC
+                     /estimated_length=15
+                     /note="color: #000000"
+     primer_bind     complement(86..120)
+                     /label=oJBL371
+                     /note="color: black; sequence: 
+                     GTTTAGCCTTAGCCGCTAATAGGTGAGCTTGTCGA; added: 2021-12-14"
+     misc_feature    93..114
+                     /label=10X Capture Sequence 2
+                     /note="color: #c7b0e3"
+     misc_feature    93..114
+                     /label=10x_CS2
+                     /note="color: #800080"
+     primer_bind     complement(115..145)
+                     /label=oJBL316
+                     /note="color: black; sequence: 
+                     AACCATTATAAGCTGCAATAAACAAGTTTAG; added: 2021-07-16"
+     misc_feature    118..159
+                     /label=SV40 polyA
+                     /note="color: #84b0dc"
+     primer_bind     120..159
+                     /label=oJBL435
+                     /note="color: black; sequence: 
+                     CTTGTTTATTGCAGCTTATAATGGTTACAAATAAAGCAAT; added: 
+                     2021-12-14"
+     primer_bind     complement(130..193)
+                     /label=oJBL358
+                     /note="color: black; sequence: 
+                     caagcagaagacggcatacgagatNNNNNNNNNNATTGCTTTATTTGTAACCATTATAA
+                     GCTGC; added: 2021-12-14"
+     gap             160..169
+                     /label=UMI
+                     /estimated_length=10
+                     /note="color: #00ffff"
+     misc_feature    170..193
+                     /label=P7
+                     /note="color: #ff0000"
+ORIGIN
+        1 aatgatacgg cgaccaccga gatctacacn nnnnnatgga cgagctgtac aagtgaacgc
+       61 gttaagtcga nnnnnnnnnn nnnnntcgac aagctcacct attagcggct aaggctaaac
+      121 ttgtttattg cagcttataa tggttacaaa taaagcaatn nnnnnnnnna tctcgtatgc
+      181 cgtcttctgc ttg
+//

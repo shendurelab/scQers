@@ -1,0 +1,117 @@
+LOCUS       Exported                 152 bp DNA     linear   SYN 18-NOV-2022
+DEFINITION  .
+ACCESSION   .
+VERSION     .
+KEYWORDS    .
+SOURCE      synthetic DNA construct
+  ORGANISM  PCR product
+REFERENCE   1  (bases 1 to 152)
+  AUTHORS   MIT
+  TITLE     Direct Submission
+  JOURNAL   Exported Nov 18, 2022 from SnapGene 6.0.0
+            https://www.snapgene.com
+FEATURES             Location/Qualifiers
+     source          1..152
+                     /mol_type="other DNA"
+                     /organism="PCR product"
+     misc_feature    1..29
+                     /label=P5
+                     /note="color: #0000ff"
+     primer_bind     1..29
+                     /label=oJBL076
+                     /note="color: black; sequence: 
+                     AATGATACGGCGACCACCGAGATCTACAC; added: 2021-12-14"
+     primer_bind     9..67
+                     /label=oJBL424
+                     /note="color: black; sequence: 
+                     ggcgaccaccgagatctacacNNNNNNNNNNGTGAAAttgctaggaccggccttaaagc
+                     ; added: 2021-12-14"
+     gap             30..39
+                     /label=UMI
+                     /estimated_length=10
+                     /note="color: #ffff99"
+     primer_bind     40..67
+                     /label=oJBL431
+                     /note="color: black; sequence: 
+                     GTGAAAttgctaggaccggccttaaagc; added: 2021-12-20"
+     primer_bind     complement(40..67)
+                     /label=oJBL434
+                     /note="color: black; sequence: 
+                     gctttaaggccggtcctagcaaTTTCAC; added: 2021-12-20"
+     misc_feature    46..122
+                     /label=circRNA
+                     /note="color: #ffffff"
+     primer_bind     46..105
+                     /label=oJBL291
+                     /note="color: black; sequence: 
+                     TTGCTAGGACCGGCCTTAAAGCNNNBNNNBNNNBNNNBaatatctggacccgaccgtct
+                     c; added: 2021-07-06"
+     misc_feature    46..85
+                     /label=internal_loop
+                     /note="color: #33cccc"
+     misc_feature    46..67
+                     /label=10X_CS1
+                     /label=10X capture sequence 1
+                     /note="color: #0080ff"
+     primer_bind     complement(46..67)
+                     /label=oJBL292
+                     /note="color: black; sequence: GCTTTAAGGCCGGTCCTAGCAA; 
+                     added: 2021-07-06"
+     misc_feature    68..83
+                     /label=BC
+                     /note="color: #000000"
+     misc_feature    68..82
+                     /label=internal_loop
+                     /note="color: #33cccc"
+     misc_feature    68..82
+                     /label=internal_loop
+                     /note="color: #33cccc"
+     primer_bind     complement(84..113)
+                     /label=oJBL433
+                     /note="color: black; sequence: 
+                     gcggccgcgagacggtcgggtccagatatt; added: 2021-12-20"
+     primer_bind     84..113
+                     /label=oJBL347
+                     /note="color: black; sequence: 
+                     aatatctggacccgaccgtctcgcggccgc; added: 2022-04-06"
+     misc_feature    84..105
+                     /label=broc_5'
+                     /note="color: #ccffcc"
+     primer_bind     complement(84..105)
+                     /label=oJBL274
+                     /note="color: black; sequence: gagacggtcgggtccagatatt; 
+                     added: 2021-06-14"
+     primer_bind     84..105
+                     /label=oJBL275
+                     /note="color: black; sequence: aatatctggacccgaccgtctc; 
+                     added: 2021-06-14"
+     primer_bind     84..101
+                     /label=oJBL214
+                     /note="color: black; sequence: cgaatatctggacccgaccg; added:
+                     2021-03-07"
+     misc_feature    91..93
+                     /label=internal_stem
+                     /note="color: #339966"
+     primer_bind     93..122
+                     /label=oJBL432
+                     /note="color: black; sequence: 
+                     acccgaccgtctcgcggccgcactcggcat; added: 2021-12-20"
+     primer_bind     complement(102..152)
+                     /label=oJBL425
+                     /note="color: black; sequence: 
+                     caagcagaagacggcatacgagatIIIIIIatgccgagtgcggccgcgaga; added:
+                     2021-12-14"
+     misc_feature    106..122
+                     /label=5' ligation
+                     /note="color: #ff9900"
+     misc_feature    114..122
+                     /label=5' tornado ribozyme
+                     /note="color: #0000ff"
+     misc_feature    129..152
+                     /label=P7
+                     /note="color: #ff0000"
+ORIGIN
+        1 aatgatacgg cgaccaccga gatctacacn nnnnnnnnng tgaaattgct aggaccggcc
+       61 ttaaagcnnn bnnnbnnnbn nnbaatatct ggacccgacc gtctcgcggc cgcactcggc
+      121 atnnnnnnat ctcgtatgcc gtcttctgct tg
+//

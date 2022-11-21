@@ -1,0 +1,203 @@
+LOCUS       Exported                 652 bp DNA     linear   SYN 18-NOV-2022
+DEFINITION  .
+ACCESSION   .
+VERSION     .
+KEYWORDS    .
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct
+REFERENCE   1  (bases 1 to 652)
+  AUTHORS   MIT
+  TITLE     Direct Submission
+  JOURNAL   Exported Nov 18, 2022 from SnapGene 6.0.0
+            https://www.snapgene.com
+FEATURES             Location/Qualifiers
+     source          1..652
+                     /mol_type="other DNA"
+                     /organism="synthetic DNA construct"
+     primer_bind     1..62
+                     /label=oJBL512
+                     /note="color: black; sequence: 
+                     AATGATACGGCGACCACCGAGATCTACACTCGTCGGCAGCGTCAGATGTGTATAAGAGA
+                     CAG; added: 2022-03-30"
+     misc_feature    1..29
+                     /label=P5
+                     /note="color: #0000ff"
+     primer_bind     1..29
+                     /label=oJBL076
+                     /note="color: black; sequence: 
+                     AATGATACGGCGACCACCGAGATCTACAC; added: 2022-03-30"
+     misc_feature    30..62
+                     /label=Tn5_ME_w_i5_adapter
+                     /note="color: #00ccff"
+     primer_bind     30..62
+                     /label=read1
+                     /note="color: black; sequence: 
+                     TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG; added: 2021-04-20"
+     primer_bind     complement(30..62)
+                     /label=index2
+                     /note="color: black; sequence: 
+                     CTGTCTCTTATACACATCTGACGCTGCCGACGA; added: 2021-04-20"
+     misc_feature    44..62
+                     /label=Tn5 ME
+                     /note="hyperactive mosaic end for Tn5 transposase 
+                     recognition (Reznikoff et al., 2004)"
+                     /note="color: #ffe4c2"
+     primer_bind     44..62
+                     /label=read2
+                     /note="color: black; sequence: 
+                     GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG; added: 2021-04-20"
+     gap             63..338
+                     /label=devCRE_insert
+                     /estimated_length=66
+                     /note="color: #008000"
+     misc_feature    339..362
+                     /label=gJBL008
+                     /note="color: #ccffff"
+     misc_feature    339..340
+                     /label=upstream_portion_puro_GFP_cassette
+                     /note="color: #ffcc99"
+     misc_feature    339
+                     /label=CRE_insertion_site
+                     /note="color: #ffff00"
+     misc_feature    341..362
+                     /label=homology_MRS_downstream_tornado
+                     /note="color: #ccffcc"
+     misc_feature    411..431
+                     /label=U6 terminator
+                     /note="color: #333333"
+     misc_feature    411
+                     /label=3' pri-racRNA
+                     /note="color: #a6acb3"
+     misc_feature    438..508
+                     /label=3' tornado ribozyme
+                     /note="color: #00ccff"
+     primer_bind     438..456
+                     /label=oJBL223
+                     /note="color: black; sequence: gcgtggactgtaccctcca; added: 
+                     2021-06-14"
+     primer_bind     481..510
+                     /label=oJBL521
+                     /note="color: black; sequence: 
+                     attggcagtgttctacagtccacgccgacc; added: 2022-02-16"
+     misc_feature    493..622
+                     /label=circRNA
+                     /note="color: #ffffff"
+     misc_feature    493..518
+                     /label=3' ligation
+                     /note="color: #ff9900"
+     primer_bind     complement(493..510)
+                     /label=oJBL215
+                     /note="color: black; sequence: ggtcggcgtggactgtag; added: 
+                     2021-03-07"
+     misc_feature    493
+                     /label=3' pre-racRNA
+                     /note="color: #a6acb3"
+     misc_feature    519..545
+                     /label=broc_3'
+                     /note="color: #ccffcc"
+     primer_bind     519..540
+                     /label=oJBL272
+                     /note="color: black; sequence: gagcccacactctactcgacag; 
+                     added: 2021-06-14"
+     primer_bind     complement(522..560)
+                     /label=oJBL222
+                     /note="color: black; sequence: 
+                     TCACCATGGTGGCGACCGGTSNNNSNNNSNNNSNNNcgtatctgtcgagtagagtgtgg
+                     g; added: 2021-06-14"
+     misc_feature    534..538
+                     /label=internal_stem
+                     /note="color: #339966"
+     misc_feature    544..585
+                     /label=internal_loop
+                     /note="color: #33cccc"
+     primer_bind     546..605
+                     /label=oJBL291
+                     /note="color: black; sequence: 
+                     TTGCTAGGACCGGCCTTAAAGCNNNBNNNBNNNBNNNBaatatctggacccgaccgtct
+                     c; added: 2021-07-06"
+     misc_feature    546..567
+                     /label=10X_CS1
+                     /label=10X capture sequence 1
+                     /note="color: #0080ff"
+     primer_bind     complement(546..567)
+                     /label=oJBL292
+                     /note="color: black; sequence: GCTTTAAGGCCGGTCCTAGCAA; 
+                     added: 2021-07-06"
+     misc_feature    568..583
+                     /label=BC
+                     /note="color: #000000"
+     misc_feature    568..582
+                     /label=internal_loop
+                     /note="color: #33cccc"
+     misc_feature    568..582
+                     /label=internal_loop
+                     /note="color: #33cccc"
+     primer_bind     complement(584..613)
+                     /label=oJBL433
+                     /note="color: black; sequence: 
+                     gcggccgcgagacggtcgggtccagatatt; added: 2022-03-30"
+     misc_feature    584..605
+                     /label=broc_5'
+                     /note="color: #ccffcc"
+     primer_bind     complement(584..605)
+                     /label=oJBL274
+                     /note="color: black; sequence: gagacggtcgggtccagatatt; 
+                     added: 2021-06-14"
+     primer_bind     584..605
+                     /label=oJBL275
+                     /note="color: black; sequence: aatatctggacccgaccgtctc; 
+                     added: 2021-06-14"
+     primer_bind     584..601
+                     /label=oJBL214
+                     /note="color: black; sequence: cgaatatctggacccgaccg; added:
+                     2021-03-07"
+     misc_feature    591..593
+                     /label=internal_stem
+                     /note="color: #339966"
+     primer_bind     593..622
+                     /label=oJBL432
+                     /note="color: black; sequence: 
+                     acccgaccgtctcgcggccgcactcggcat; added: 2022-03-30"
+     primer_bind     complement(602..652)
+                     /label=oJBL425
+                     /note="color: black; sequence: 
+                     caagcagaagacggcatacgagatACAGTGatgccgagtgcggccgcgaga; added:
+                     2022-03-30"
+     primer_bind     complement(602..652)
+                     /label=oJBL425a
+                     /note="color: black; sequence: 
+                     caagcagaagacggcatacgagatIIIIIIatgccgagtgcggccgcgaga; added:
+                     2022-03-30"
+     misc_feature    606..622
+                     /label=5' ligation
+                     /note="color: #ff9900"
+     primer_bind     complement(612..622)
+                     /label=oJBL520
+                     /note="color: black; sequence: 
+                     ggcgggaaaccgcctaaccatgccgagtgc; added: 2022-02-16"
+     primer_bind     complement(612..622)
+                     /label=oJBL522
+                     /note="color: black; sequence: 
+                     atatactagtcgacgaaccatgccgagtgc; added: 2022-02-16"
+     misc_feature    614..622
+                     /label=5' tornado ribozyme
+                     /note="color: #0000ff"
+     misc_feature    623..628
+                     /label=i7
+                     /note="color: #ff99cc"
+     misc_feature    629..652
+                     /label=P7
+                     /note="color: #ff0000"
+ORIGIN
+        1 aatgatacgg cgaccaccga gatctacact cgtcggcagc gtcagatgtg tataagagac
+       61 agnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn
+      121 nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn
+      181 nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn
+      241 nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn
+      301 nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnncc tcgagatcga tgcggtcgcc
+      361 atatggatat cggtaaccga cgtcaagctt gcatgcctgc aggtcctagt aaaaagcgga
+      421 ccgaagtccg ctctagagcg tggactgtac cctccacttt tatccgggct tgggaccggc
+      481 attggcagtg ttctacagtc cacgccgacc gcggccacga gcccacactc tactcgacag
+      541 atacgttgct aggaccggcc ttaaagcnnn bnnnbnnnbn nnbaatatct ggacccgacc
+      601 gtctcgcggc cgcactcggc atcactgtat ctcgtatgcc gtcttctgct tg
+//

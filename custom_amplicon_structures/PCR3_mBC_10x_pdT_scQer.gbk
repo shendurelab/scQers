@@ -1,0 +1,121 @@
+LOCUS       Exported                 633 bp DNA     linear   SYN 18-NOV-2022
+DEFINITION  .
+ACCESSION   .
+VERSION     .
+KEYWORDS    .
+SOURCE      synthetic DNA construct
+  ORGANISM  PCR product
+REFERENCE   1  (bases 1 to 633)
+  AUTHORS   MIT
+  TITLE     Direct Submission
+  JOURNAL   Exported Nov 18, 2022 from SnapGene 6.0.0
+            https://www.snapgene.com
+FEATURES             Location/Qualifiers
+     source          1..633
+                     /mol_type="other DNA"
+                     /organism="PCR product"
+     primer_bind     1..49
+                     /label=10x_PCR1_read1
+                     /note="color: black; sequence: 
+                     AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTC; added: 
+                     2021-09-01"
+     misc_feature    1..29
+                     /label=P5
+                     /note="color: #0000ff"
+     primer_bind     1..29
+                     /label=P5
+                     /note="color: black; sequence: 
+                     AATGATACGGCGACCACCGAGATCTACAC; added: 2022-03-10"
+     primer_bind     37..118
+                     /label=10x_polydT_primer
+                     /note="color: black; sequence: 
+                     CTACACGACGCTCTTCCGATCTNNNNNNNNNNNNNNNNNNNNNNNNNNNNTTTTTTTTT
+                     TTTTTTTTTTTTTTTTTTTTTVN; added: 2021-08-21"
+     gap             59..86
+                     /estimated_length=28
+     gap             59..74
+                     /label=cBC
+                     /estimated_length=16
+                     /note="color: #dcdcdc"
+     gap             75..86
+                     /label=UMI
+                     /estimated_length=12
+                     /note="color: #00ffff"
+     misc_feature    116..198
+                     /label=SV40 polyA
+                     /note="color: #84b0dc"
+     misc_feature    116..117
+                     /label=cleavage?
+                     /note="color: #ff9900"
+     misc_feature    133..138
+                     /label=pA_signal?
+                     /note="color: #ff9900"
+     misc_feature    141..142
+                     /label=cleavage?
+                     /note="color: #a6acb3"
+     misc_feature    157..186
+                     /label=PB-check-r
+                     /note="color: #85dae9; direction: RIGHT"
+     misc_feature    162..167
+                     /label=pA_signal?
+                     /note="color: #a6acb3"
+     primer_bind     174..223
+                     /label=on_bead_10x_RT_CS2_primer
+                     /note="color: black; sequence: 
+                     GTCAGATGTGTATAAGAGACAGNNNNNNNNNNNNNNNNNNNNNNNNNNNNCCTTAGCCG
+                     CTAATAGGTGAGC; added: 2021-08-21"
+     misc_feature    202..223
+                     /label=10x_CS2
+                     /note="color: #800080"
+     misc_feature    202..223
+                     /label=10X Capture Sequence 2
+                     /note="color: #c7b0e3"
+     gap             231..245
+                     /label=BC
+                     /estimated_length=15
+                     /note="color: #000000"
+     primer_bind     complement(246..285)
+                     /label=oJBL334
+                     /note="color: black; sequence: 
+                     TCGGCATGGACGAGCTGTACAAGTGAACGCGTTAAGTCGA; added: 
+                     2022-03-10"
+     primer_bind     251..274
+                     /label=oJBL254
+                     /note="color: black; sequence: TTAACGCGTTCACTTGTACAGCTC; 
+                     added: 2021-05-22"
+     misc_feature    260..565
+                     /label=EGFP
+                     /note="color: #b1ff67"
+     misc_feature    260..271
+                     /label=GFP_C_term
+                     /note="color: #99cc00"
+     primer_bind     complement(545..599)
+                     /label=oJBL529
+                     /note="color: black; sequence: 
+                     atccatggccctcaggcatactgttccaactccaGGGCACAAGCTGGAGTACAAC; 
+                     added: 2022-03-10"
+     primer_bind     566..599
+                     /label=oJBL534
+                     /note="color: black; sequence: 
+                     tggagttggaacaGTATGCCTGAGGGCCATGGAT; added: 2022-03-10"
+     primer_bind     complement(579..633)
+                     /label=oJBL531
+                     /note="color: black; sequence: 
+                     CAAGCAGAAGACGGCATACGAGATatccgttagcATCCATGGCCCTCAGGCATAC; 
+                     added: 2022-03-10"
+     misc_feature    610..633
+                     /label=P7
+                     /note="color: #ff0000"
+ORIGIN
+        1 aatgatacgg cgaccaccga gatctacact ctttccctac acgacgctct tccgatctnn
+       61 nnnnnnnnnn nnnnnnnnnn nnnnnntttt tttttttttt tttttttttt ttttttvnag
+      121 tgaaaaaaat gctttatttg tgaaatttgt gatgctattg ctttatttgt aaccattata
+      181 agctgcaata aacaagttta gccttagccg ctaataggtg agcttgtcga nnnnnnnnnn
+      241 nnnnntcgac ttaacgcgtt cacttgtaca gctcgtccat gccgagagtg atcccggcgg
+      301 cggtcacgaa ctccagcagg accatgtgat cgcgcttctc gttggggtct ttgctcaggg
+      361 cggactgggt gctcaggtag tggttgtcgg gcagcagcac ggggccgtcg ccgatggggg
+      421 tgttctgctg gtagtggtcg gcgagctgca cgctgccgtc ctcgatgttg tggcggatct
+      481 tgaagttcac cttgatgccg ttcttctgct tgtcggccat gatatagacg ttgtggctgt
+      541 tgtagttgta ctccagcttg tgccctggag ttggaacagt atgcctgagg gccatggatg
+      601 ctaacggata tctcgtatgc cgtcttctgc ttg
+//

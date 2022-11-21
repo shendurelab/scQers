@@ -1,0 +1,146 @@
+LOCUS       Exported                 207 bp DNA     linear   SYN 01-NOV-2022
+DEFINITION  .
+ACCESSION   .
+VERSION     .
+KEYWORDS    .
+SOURCE      synthetic DNA construct
+  ORGANISM  PCR product
+REFERENCE   1  (bases 1 to 207)
+  AUTHORS   MIT
+  TITLE     Direct Submission
+  JOURNAL   Exported Nov 18, 2022 from SnapGene 6.0.0
+            https://www.snapgene.com
+FEATURES             Location/Qualifiers
+     source          1..207
+                     /mol_type="other DNA"
+                     /organism="PCR product"
+     primer_bind     1..72
+                     /label=feature_SI_primers_part_of_PN-2000098
+                     /note="color: black; sequence: 
+                     AATGATACGGCGACCACCGAGATCTACACTCGTCGGCAGCGTCAGATGTGTATAAGAGA
+                     CAG; added: 2021-08-14"
+     primer_bind     1..53
+                     /label=nextera_v2_i5
+                     /note="color: black; sequence: 
+                     AATGATACGGCGACCACCGAGATCTACACNNNNNNNNNNTCGTCGGCAGCGTC; 
+                     added: 2022-01-25"
+     misc_feature    1..29
+                     /label=P5
+                     /note="color: #0000ff"
+     gap             30..39
+                     /label=idx5
+                     /estimated_length=10
+                     /note="color: #333333"
+     misc_feature    40..72
+                     /label=Tn5_ME_w_i5_adapter
+                     /note="color: #00ccff"
+     primer_bind     40..72
+                     /label=oSR040_read1
+                     /note="color: black; sequence: 
+                     TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG; added: 2021-08-21"
+     primer_bind     46..72
+                     /label=10x_part_of_PN-2000097
+                     /note="color: black; sequence: GCAGCGTCAGATGTGTATAAGAGACAG;
+                     added: 2021-08-14"
+     misc_feature    54..72
+                     /label=Tn5 ME
+                     /note="hyperactive mosaic end for Tn5 transposase 
+                     recognition (Reznikoff et al., 2004)"
+                     /note="color: #ffe4c2"
+     primer_bind     54..72
+                     /label=read2
+                     /note="color: black; sequence: 
+                     GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG; added: 2021-08-14"
+     gap             73..100
+                     /estimated_length=28
+     gap             73..88
+                     /label=cBC
+                     /estimated_length=16
+                     /note="color: #ffff99"
+     gap             89..100
+                     /label=UMI
+                     /estimated_length=12
+                     /note="color: #ffcc99"
+     primer_bind     101..160
+                     /label=oJBL291
+                     /note="color: black; sequence: 
+                     TTGCTAGGACCGGCCTTAAAGCNNNBNNNBNNNBNNNBaatatctggacccgaccgtct
+                     c; added: 2021-07-06"
+     misc_feature    101..122
+                     /label=10X_CS1
+                     /label=10X capture sequence 1
+                     /note="color: #0080ff"
+     misc_feature    101..122
+                     /label=circRNA
+                     /note="color: #ffffff"
+     misc_feature    101..122
+                     /label=internal_loop
+                     /note="color: #33cccc"
+     misc_feature    123..177
+                     /label=circRNA
+                     /note="color: #ffffff"
+     misc_feature    123..140
+                     /label=internal_loop
+                     /note="color: #33cccc"
+     misc_feature    123..138
+                     /label=BC
+                     /note="color: #000000"
+     misc_feature    123..137
+                     /label=internal_loop
+                     /note="color: #33cccc"
+     misc_feature    123..137
+                     /label=internal_loop
+                     /note="color: #33cccc"
+     primer_bind     complement(139..168)
+                     /label=oJBL433
+                     /note="color: black; sequence: 
+                     gcggccgcgagacggtcgggtccagatatt; added: 2022-11-02"
+     misc_feature    139..160
+                     /label=broc_5'
+                     /note="color: #ccffcc"
+     primer_bind     complement(139..160)
+                     /label=oJBL274
+                     /note="color: black; sequence: gagacggtcgggtccagatatt; 
+                     added: 2021-06-14"
+     primer_bind     139..160
+                     /label=oJBL275
+                     /note="color: black; sequence: aatatctggacccgaccgtctc; 
+                     added: 2021-06-14"
+     primer_bind     139..156
+                     /label=oJBL214
+                     /note="color: black; sequence: cgaatatctggacccgaccg; added:
+                     2021-03-07"
+     misc_feature    146..148
+                     /label=internal_stem
+                     /note="color: #339966"
+     primer_bind     148..177
+                     /label=oJBL432
+                     /note="color: black; sequence: 
+                     acccgaccgtctcgcggccgcactcggcat; added: 2022-11-02"
+     primer_bind     complement(157..207)
+                     /label=oJBL425
+                     /note="color: black; sequence: 
+                     caagcagaagacggcatacgagatACAGTGatgccgagtgcggccgcgaga; added:
+                     2022-01-25"
+     misc_feature    161..177
+                     /label=5' ligation
+                     /note="color: #ff9900"
+     primer_bind     complement(165..177)
+                     /label=oJBL246
+                     /note="color: black; sequence: aaccatgccgagtgcgg; added: 
+                     2021-06-14"
+     misc_feature    169..177
+                     /label=5' tornado ribozyme
+                     /note="color: #0000ff"
+     misc_feature    178..183
+                     /label=idx7
+                     /note="color: #ff99cc"
+     misc_feature    184..207
+                     /label=P7
+                     /note="color: #ff0000"
+ORIGIN
+        1 aatgatacgg cgaccaccga gatctacacn nnnnnnnnnt cgtcggcagc gtcagatgtg
+       61 tataagagac agnnnnnnnn nnnnnnnnnn nnnnnnnnnn ttgctaggac cggccttaaa
+      121 gcnnnbnnnb nnnbnnnbaa tatctggacc cgaccgtctc gcggccgcac tcggcatcac
+      181 tgtatctcgt atgccgtctt ctgcttg
+//

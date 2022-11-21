@@ -1,0 +1,117 @@
+LOCUS       Exported                 532 bp DNA     linear   SYN 18-NOV-2022
+DEFINITION  .
+ACCESSION   .
+VERSION     .
+KEYWORDS    .
+SOURCE      synthetic DNA construct
+  ORGANISM  PCR product
+REFERENCE   1  (bases 1 to 532)
+  AUTHORS   MIT
+  TITLE     Direct Submission
+  JOURNAL   Exported Nov 18, 2022 from SnapGene 6.0.0
+            https://www.snapgene.com
+FEATURES             Location/Qualifiers
+     source          1..532
+                     /mol_type="other DNA"
+                     /organism="PCR product"
+     primer_bind     1..72
+                     /label=feature_SI_primers_part_of_PN-2000098
+                     /note="color: black; sequence: 
+                     AATGATACGGCGACCACCGAGATCTACACTCGTCGGCAGCGTCAGATGTGTATAAGAGA
+                     CAG; added: 2021-08-14"
+     primer_bind     1..53
+                     /label=nextera_v2_i5
+                     /note="color: black; sequence: 
+                     AATGATACGGCGACCACCGAGATCTACACNNNNNNNNNNTCGTCGGCAGCGTC; 
+                     added: 2022-03-03"
+     misc_feature    1..29
+                     /label=P5
+                     /note="color: #0000ff"
+     gap             30..39
+                     /estimated_length=10
+     misc_feature    40..72
+                     /label=Tn5_ME_w_i5_adapter
+                     /note="color: #00ccff"
+     primer_bind     complement(40..72)
+                     /label=index2
+                     /note="color: black; sequence: 
+                     CTGTCTCTTATACACATCTGACGCTGCCGACGA; added: 2021-08-14"
+     primer_bind     40..72
+                     /label=oSR040_read1
+                     /note="color: black; sequence: 
+                     TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG; added: 2022-03-03"
+     misc_feature    46..464
+                     /label=amplified_cDNA
+                     /note="color: #ffff00"
+     primer_bind     46..72
+                     /label=10x_part_of_PN-2000097
+                     /note="color: black; sequence: GCAGCGTCAGATGTGTATAAGAGACAG;
+                     added: 2021-08-14"
+     misc_feature    51..464
+                     /label=unamplified_cDNA
+                     /note="color: #a6acb3"
+     primer_bind     51..122
+                     /label=on_bead_10x_RT_CS2_primer
+                     /note="color: black; sequence: 
+                     GTCAGATGTGTATAAGAGACAGNNNNNNNNNNNNNNNNNNNNNNNNNNNNCCTTAGCCG
+                     CTAATAGGTGAGC; added: 2021-08-14"
+     misc_feature    54..72
+                     /label=Tn5 ME
+                     /note="hyperactive mosaic end for Tn5 transposase 
+                     recognition (Reznikoff et al., 2004)"
+                     /note="color: #ffe4c2"
+     primer_bind     54..72
+                     /label=read2
+                     /note="color: black; sequence: 
+                     GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG; added: 2021-08-14"
+     gap             73..100
+                     /estimated_length=28
+     gap             73..88
+                     /label=cBC
+                     /estimated_length=16
+                     /note="color: #ffff99"
+     gap             89..100
+                     /label=UMI
+                     /estimated_length=12
+                     /note="color: #ffcc99"
+     misc_feature    101..122
+                     /label=CS2
+                     /note="color: #a6acb3"
+     gap             130..144
+                     /label=mRNA_BC
+                     /estimated_length=15
+                     /note="color: #ff00ff"
+     primer_bind     complement(444..498)
+                     /label=oJBL529
+                     /note="color: black; sequence: 
+                     atccatggccctcaggcatactgttccaactccaGGGCACAAGCTGGAGTACAAC; 
+                     added: 2022-03-03"
+     misc_feature    465..498
+                     /label=shuffled_nextera_handle
+                     /note="color: #ffffff"
+     primer_bind     465..498
+                     /label=oJBL534
+                     /note="color: black; sequence: 
+                     tggagttggaacaGTATGCCTGAGGGCCATGGAT; added: 2022-03-03"
+     primer_bind     complement(478..532)
+                     /label=oJBL530
+                     /note="color: black; sequence: 
+                     CAAGCAGAAGACGGCATACGAGATggtcgctatgATCCATGGCCCTCAGGCATAC; 
+                     added: 2022-03-03"
+     misc_feature    499..508
+                     /label=idx
+                     /note="color: #800080"
+     misc_feature    509..532
+                     /label=P7
+                     /note="color: #ff0000"
+ORIGIN
+        1 aatgatacgg cgaccaccga gatctacacn nnnnnnnnnt cgtcggcagc gtcagatgtg
+       61 tataagagac agnnnnnnnn nnnnnnnnnn nnnnnnnnnn ccttagccgc taataggtga
+      121 gcttgtcgan nnnnnnnnnn nnnntcgact taacgcgttc acttgtacag ctcgtccatg
+      181 ccgagagtga tcccggcggc ggtcacgaac tccagcagga ccatgtgatc gcgcttctcg
+      241 ttggggtctt tgctcagggc ggactgggtg ctcaggtagt ggttgtcggg cagcagcacg
+      301 gggccgtcgc cgatgggggt gttctgctgg tagtggtcgg cgagctgcac gctgccgtcc
+      361 tcgatgttgt ggcggatctt gaagttcacc ttgatgccgt tcttctgctt gtcggccatg
+      421 atatagacgt tgtggctgtt gtagttgtac tccagcttgt gccctggagt tggaacagta
+      481 tgcctgaggg ccatggatca tagcgaccat ctcgtatgcc gtcttctgct tg
+//
