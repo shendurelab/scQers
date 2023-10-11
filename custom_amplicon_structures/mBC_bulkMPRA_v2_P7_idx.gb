@@ -1,0 +1,68 @@
+LOCUS       mBC_bulkMPRA_v2_         237 bp DNA     linear   SYN 12-AUG-2023
+DEFINITION  synthetic linear DNA
+ACCESSION   .
+VERSION     .
+KEYWORDS    .
+SOURCE      synthetic DNA construct
+  ORGANISM  PCR product
+REFERENCE   1  (bases 1 to 237)
+  AUTHORS   MIT
+  TITLE     Direct Submission
+  JOURNAL   Exported Oct 11, 2023 from SnapGene 7.0.2
+            https://www.snapgene.com
+FEATURES             Location/Qualifiers
+     source          1..237
+                     /mol_type="other DNA"
+                     /organism="PCR product"
+     primer_bind     1..59
+                     /label=oJBL359-366
+     misc_feature    1..29
+                     /label=P5
+     gap             30..35
+                     /label=i5
+                     /estimated_length=6
+     primer_bind     36..70
+                     /label=oJBL369
+     primer_bind     complement(36..70)
+                     /label=oJBL370
+     misc_feature    36..56
+                     /label=EGFP
+     misc_feature    45..56
+                     /label=GFP_C_term
+     gap             71..85
+                     /label=mBC
+                     /estimated_length=15
+     primer_bind     complement(86..120)
+                     /label=oJBL371
+     misc_feature    93..114
+                     /label=10x_CS2
+     misc_feature    93..114
+                     /label=10X Capture Sequence 2
+     misc_feature    118..159
+                     /label=SV40 polyA
+     primer_bind     120..159
+                     /label=oJBL435
+     primer_bind     complement(130..203)
+                     /label=oJBL753
+     gap             160..169
+                     /label=UMI
+                     /estimated_length=10
+     misc_feature    170..203
+                     /label=Tn5_ME_wi7_adapter
+     primer_bind     170..203
+                     /label=index1
+     primer_bind     complement(170..203)
+                     /label=read2
+     primer_bind     complement(189..237)
+                     /label=nextera_v2_i7
+     gap             204..213
+                     /label=i7
+                     /estimated_length=10
+     misc_feature    214..237
+                     /label=P7
+ORIGIN
+        1 aatgatacgg cgaccaccga gatctacacn nnnnnatgga cgagctgtac aagtgaacgc
+       61 gttaagtcga nnnnnnnnnn nnnnntcgac aagctcacct attagcggct aaggctaaac
+      121 ttgtttattg cagcttataa tggttacaaa taaagcaatn nnnnnnnnnc tgtctcttat
+      181 acacatctcc gagcccacga gacnnnnnnn nnnatctcgt atgccgtctt ctgcttg
+//

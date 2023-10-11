@@ -1,0 +1,97 @@
+LOCUS       CRE_mBC_subassem         378 bp DNA     linear   SYN 13-APR-2022
+DEFINITION  synthetic linear DNA
+ACCESSION   .
+VERSION     .
+KEYWORDS    .
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct
+REFERENCE   1  (bases 1 to 378)
+  AUTHORS   MIT
+  TITLE     Direct Submission
+  JOURNAL   Exported Oct 11, 2023 from SnapGene 7.0.2
+            https://www.snapgene.com
+FEATURES             Location/Qualifiers
+     source          1..378
+                     /mol_type="other DNA"
+                     /organism="synthetic DNA construct"
+     primer_bind     1..53
+                     /label=nextera_v2_i5
+     primer_bind     1..53
+                     /label=nextera_v2_i5_C10
+     misc_feature    1..29
+                     /label=P5
+     gap             30..39
+                     /estimated_length=10
+     misc_feature    40..72
+                     /label=Tn5_ME_w_i5_adapter
+     primer_bind     40..72
+                     /label=read1
+     primer_bind     complement(40..72)
+                     /label=index2
+     misc_feature    54..72
+                     /label=Tn5 ME
+                     /note="hyperactive mosaic end for Tn5 transposase 
+                     recognition (Reznikoff et al., 2004)"
+     primer_bind     54..72
+                     /label=read2
+     primer_bind     complement(54..72)
+                     /label=index1
+     gap             73..153
+                     /label=devCRE_insert
+                     /estimated_length=81
+     misc_feature    154..235
+                     /label=gJBL008
+     misc_feature    154..194
+                     /label=upstream_portion_puro_GFP_cassette
+     misc_feature    154..155
+                     /label=CRE_insertion_site
+     misc_feature    154
+                     /label=MfeI
+     misc_feature    193..194
+                     /label=BamHI
+     misc_feature    194..212
+                     /label=promoter_puro-GFP_insertion_site
+     misc_feature    211..241
+                     /label=EGFP
+     misc_feature    211..235
+                     /label=end_puro-GFP_cassette
+     primer_bind     216..255
+                     /label=oJBL334
+     primer_bind     complement(221..255)
+                     /label=oJBL370
+     misc_feature    230..241
+                     /label=GFP_C_term
+     gap             256..270
+                     /label=mBC
+                     /estimated_length=15
+     primer_bind     complement(271..329)
+                     /label=oJBL516
+     primer_bind     complement(271..305)
+                     /label=oJBL371
+     misc_feature    278..299
+                     /label=10X Capture Sequence 2
+     misc_feature    278..299
+                     /label=10x_CS2
+     primer_bind     complement(300..330)
+                     /label=oJBL316
+     misc_feature    303..356
+                     /label=SV40 polyA
+     primer_bind     305..344
+                     /label=oJBL435
+     primer_bind     complement(315..378)
+                     /label=oJBL358
+     misc_feature    complement(315..344)
+                     /label=PB-check-r
+     gap             345..354
+                     /estimated_length=10
+     misc_feature    355..378
+                     /label=P7
+ORIGIN
+        1 aatgatacgg cgaccaccga gatctacacn nnnnnnnnnt cgtcggcagc gtcagatgtg
+       61 tataagagac agnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn
+      121 nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnngtcaact acatctgctt tgggatacag
+      181 atatacacgg ttggagatct gataggaatt cactctcggc atggacgagc tgtacaagtg
+      241 aacgcgttaa gtcgannnnn nnnnnnnnnn tcgacaagct cacctattag cggctaaggc
+      301 taaacttgtt tattgcagct tataatggtt acaaataaag caatnnnnnn nnnnatctcg
+      361 tatgccgtct tctgcttg
+//

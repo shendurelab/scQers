@@ -1,0 +1,96 @@
+LOCUS       mBC_CRE_subassem         651 bp DNA     linear   SYN 22-APR-2023
+DEFINITION  synthetic linear DNA
+ACCESSION   .
+VERSION     .
+KEYWORDS    .
+SOURCE      synthetic DNA construct
+  ORGANISM  PCR product
+REFERENCE   1  (bases 1 to 651)
+  AUTHORS   MIT
+  TITLE     Direct Submission
+  JOURNAL   Exported Oct 11, 2023 from SnapGene 7.0.2
+            https://www.snapgene.com
+FEATURES             Location/Qualifiers
+     source          1..651
+                     /mol_type="other DNA"
+                     /organism="PCR product"
+     primer_bind     1..69
+                     /label=oJBL359
+     primer_bind     1..54
+                     /label=oJBL708
+     misc_feature    36..66
+                     /label=EGFP
+     misc_feature    36..60
+                     /label=end_puro-GFP_cassette
+     primer_bind     36..54
+                     /label=oJBL315
+     misc_feature    36..37
+                     /label=promoter_puro-GFP_insertion_site
+     primer_bind     complement(44..63)
+                     /label=oJBL040
+     primer_bind     complement(52..75)
+                     /label=oJBL254
+     misc_feature    55..66
+                     /label=GFP_C_term
+     primer_bind     complement(58..117)
+                     /label=oJBL514
+     primer_bind     complement(59..155)
+                     /label=oJBL317
+     gap             81..95
+                     /label=BC
+                     /estimated_length=15
+     primer_bind     complement(96..154)
+                     /label=oJBL516
+     misc_feature    103..124
+                     /label=10x_CS2
+     misc_feature    103..124
+                     /label=10X Capture Sequence 2
+     primer_bind     123..152
+                     /label=oJBL524
+     primer_bind     complement(125..155)
+                     /label=oJBL316
+     misc_feature    128..258
+                     /label=SV40 polyA
+     primer_bind     complement(140..181)
+                     /label=oJBL358
+     primer_bind     complement(233..267)
+                     /label=oJBL323
+     gap             503..583
+                     /label=devCRE_insert
+                     /estimated_length=81
+     misc_feature    584..617
+                     /label=Tn5_ME_wi7_adapter
+     primer_bind     complement(584..617)
+                     /label=read2
+     primer_bind     584..617
+                     /label=index1
+     misc_feature    584..602
+                     /label=Tn5 ME
+                     /note="hyperactive mosaic end for Tn5 transposase 
+                     recognition (Reznikoff et al., 2004)"
+     primer_bind     complement(584..602)
+                     /label=read1
+     primer_bind     584..602
+                     /label=index2
+     primer_bind     complement(603..651)
+                     /label=nextera_v2_i7
+     primer_bind     complement(618..651)
+                     /label=oJBL358
+     gap             618..627
+                     /label=i7
+                     /estimated_length=10
+     misc_feature    628..651
+                     /label=P7
+ORIGIN
+        1 aatgatacgg cgaccaccga gatctacaca tcacgcactc tcggcatgga cgagctgtac
+       61 aagtgaacgc gttaagtcga nnnnnnnnnn nnnnntcgac aagctcacct attagcggct
+      121 aaggctaaac ttgtttattg cagcttataa tggttacaaa taaagcaata gcatcacaaa
+      181 tttcacaaat aaagcatttt tttcactgca ttctagttgt ggtttgtcca aactcatcaa
+      241 tgtatcttat catgtctgga attgactcaa atgatgtcaa ttagtctatc agaagctcat
+      301 ctggtctccc ttccggggga caagacatcc ctgtttaata tttaaacagc agtgttccca
+      361 aactgggttc ttatatccct tgctctggtc aaccaggttg cagggtttcc tgtcctcaca
+      421 ggaacgaagt ccctaaagaa acagtggcag ccaggtttag ccccggaatt gactggattc
+      481 ctttaccgca tcgatctcga ggnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn
+      541 nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnctgtctc ttatacacat
+      601 ctccgagccc acgagacnnn nnnnnnnatc tcgtatgccg tcttctgctt g
+//
