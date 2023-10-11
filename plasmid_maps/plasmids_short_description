@@ -23,3 +23,37 @@ p052_PB_truncated_tornado	Tornado-Broccoli with truncated ribozyme cassette in p
 p019_PB_oBC	Tornado-Broccoli cassette with 16 nt BC and capture sequence 1 in original Tornado plasmid backbone. 	miscellaneous cloning
 p060_PB_EEFA1_mCherry	EEF1A1p-mCherry piggyBac transposon for co-transfection and optimization of MOI	miscellaneous cloning
 p001_PB_MPRA_BM	piggyBac transposon with minP GFP	miscellaneous cloning
+
+p062_PB_oBC_minP_mCherry_mBC	Double reporter library with minimal promoter mCherry in piggyBac transposon
+p065_PB_oBC_Lama1_chr17_7784_minP_mCherry_mBC	Double reporter library with minimal promoter and CRE indicated mCherry in piggyBac transposon
+p066_PB_oBC_Lamb1_chr12_2183_minP_mCherry_mBC	Double reporter library with minimal promoter and CRE indicated mCherry in piggyBac transposon
+p067_PB_oBC_Foxa2_chr2_13858_minP_mCherry_mBC	Double reporter library with minimal promoter and CRE indicated mCherry in piggyBac transposon
+p068_PB_oBC_Gata4_chr14_5729_minP_mCherry_mBC	Double reporter library with minimal promoter and CRE indicated mCherry in piggyBac transposon
+p069_PB_oBC_Sox2_chr3_2007_minP_mCherry_mBC	Double reporter library with minimal promoter and CRE indicated mCherry in piggyBac transposon
+p070_PB_oBC_Sox2_chr3_2009_minP_mCherry_mBC	Double reporter library with minimal promoter and CRE indicated mCherry in piggyBac transposon
+p071_PB_oBC_Bend5_chr4_8201_minP_mCherry_mBC	Double reporter library with minimal promoter and CRE indicated mCherry in piggyBac transposon
+p072_PB_oBC_Epas1_chr17_10063_minP_mCherry_mBC	Double reporter library with minimal promoter and CRE indicated mCherry in piggyBac transposon
+	
+p063_oBC_minP_GFP_mBC_new_handles	Analogous to p043, but with new homology handles to add enhancers in front of minP. 
+	
+paired_enhancer_example_P1_Ur_E1_Dr	example of paired enhancer construct (P1_Ur::E1_Dr, i.e.,upstream Sox2:chr3_2007 in reverse orientation, downstream Epas1:chr17_10063 in reverse orientation)
+	
+pXL005_PB_no_cHS4	piggyBac transposon without cHS4 insulators
+p033_no_oBC_minP_puro_GFP	barcoded reporter mRNA driven by promoter 
+p034_no_oBC_EEF1A1p_puro_GFP	barcoded reporter mRNA driven by promoter 
+p035_no_oBC_noP_puro_GFP	barcoded reporter mRNA driven by promoter 
+p039_no_oBC_UBCp_puro_GFP	barcoded reporter mRNA driven by promoter 
+p040_no_oBC_Pgk1p_puro_GFP	barcoded reporter mRNA driven by promoter 
+p097_no_cHS4_no_oBC_minP_puro_GFP	barcoded reporter mRNA driven by promoter 
+p098_no_cHS4_no_oBC_EEF1A1p_puro_GFP	barcoded reporter mRNA driven by promoter 
+p099_no_cHS4_no_oBC_noP_puro_GFP	barcoded reporter mRNA driven by promoter 
+p100_no_cHS4_no_oBC_UBCp_puro_GFP	barcoded reporter mRNA driven by promoter 
+p101_no_cHS4_no_oBC_Pgk1p_puro_GFP	barcoded reporter mRNA driven by promoter 
+p102_no_cHS4_oBC_minP_puro_GFP	barcoded reporter mRNA driven by promoter 
+p103_no_cHS4_oBC_EEF1A1p_puro_GFP	barcoded reporter mRNA driven by promoter 
+p104_no_cHS4_oBC_noP_puro_GFP	barcoded reporter mRNA driven by promoter 
+p105_no_cHS4_oBC_UBCp_puro_GFP	barcoded reporter mRNA driven by promoter 
+p106_no_cHS4_oBC_Pgk1p_puro_GFP	barcoded reporter mRNA driven by promoter 
+	
+p045_oBC_noP_GFP_mBC	Analogous to p043, but without minP. For cloning in CRE library
+p090_no_oBC_minP_GFP_mBC	Barcoded reporter backbone without U6/oBC cassette
