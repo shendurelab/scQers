@@ -37,7 +37,8 @@ Rscript pileup_BC_CRE_20220404.R \
 	example_CRE_oBC_full_pileup.txt
 ```
 
-Finally, the final list of bona fide oBC-CRE pairs is obtained by running (note that there are internal parameters in the script that relate to things such as size selection during library preparation that can be modulated according to the specific application, the script also takes in a read count threshold, dependent on the level of sequencing saturation, here threshold of 3 counts). The script also takes a boolean for plotting some QC figures. 
+Finally, the final list of bona fide oBC-CRE pairs is obtained by running (note that there are internal parameters in the script that relate to things such as size selection during library preparation that can be modulated according to the specific application, the script also takes in a read count threshold, dependent on the level of sequencing saturation, here threshold of 3 counts). The script also takes a boolean for plotting some QC figures. Finally, the list of pre-asssociated oBC-mBC is also provided, to join the oBC-CRE dictionary in a final triplet necessary for scQers data deconvolution.
+
 ```
 Rscript pileup_BC_CRE_20240209.R example_CRE_oBC_full_pileup.txt.gz example_CRE_oBC 3 p025_recloned_complex_mBC_oBC_subassembly.txt.gz TRUE
 ```
