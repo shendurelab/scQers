@@ -1,0 +1,7 @@
+CRE_id	n_reads_per_CRE	n_BC_per_CRE
+Cdx2_outer_PCR1	102240	1550
+Esrrb_outer_PCR1	19126	1320
+Nodal_ASE_outer_PCR1	74268	3378
+Nodal_HBE_outer_PCR1	168937	1817
+Sox2_DNE_outer_PCR1	349775	4179
+Tbx3_outer_PCR1	58588	4168
