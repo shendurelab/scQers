@@ -1,0 +1,6 @@
+These are example intermediate files for attempting to process the mBC and oBC data that can be found here: 
+
+oBC: https://trace.ncbi.nlm.nih.gov/Traces/?view=run_browser&acc=SRR22253236&display=data-access
+mBC: https://trace.ncbi.nlm.nih.gov/Traces/?view=run_browser&acc=SRR22253239&display=data-access
+
+These are the input fastqs that can be run through respectively the oBC_scQer_preprocessing.sh and mBC_scQEr_preprocessing.sh bash scripts (after adjustments). 
