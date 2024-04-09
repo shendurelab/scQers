@@ -7,9 +7,9 @@ These are the input fastqs that can be run through respectively the oBC_scQer_pr
 
 Example intermediate outputs are included here (for the oBC). 
 
-After processing of the cellRanger bam file for barcodes, but prior to UMI pile up and error correction: 
-repA_scQer_oBC_get_bc_v3_20220201.txt.gz
+After processing of the cellRanger bam file for barcodes, but prior to UMI pile up and error correction, the file should look like:
+head_repA_scQer_oBC_get_bc_v3_20220201.txt.gz
 
-After UMI pile up and error correction: 
-repA_scQer_oBC_get_bc_v3_no_G_cleaned_UMI_20220201.txt.gz
+After UMI pile up and error correction, the file shoud look like: 
+head_repA_scQer_oBC_get_bc_v3_no_G_cleaned_UMI_20220201.txt.gz
 
