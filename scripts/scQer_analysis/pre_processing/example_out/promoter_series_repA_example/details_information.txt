@@ -4,3 +4,12 @@ oBC: https://trace.ncbi.nlm.nih.gov/Traces/?view=run_browser&acc=SRR22253236&dis
 mBC: https://trace.ncbi.nlm.nih.gov/Traces/?view=run_browser&acc=SRR22253239&display=data-access
 
 These are the input fastqs that can be run through respectively the oBC_scQer_preprocessing.sh and mBC_scQEr_preprocessing.sh bash scripts (after adjustments). 
+
+Example intermediate outputs are included here (for the oBC). 
+
+After processing of the cellRanger bam file for barcodes, but prior to UMI pile up and error correction: 
+repA_scQer_oBC_get_bc_v3_20220201.txt.gz
+
+After UMI pile up and error correction: 
+repA_scQer_oBC_get_bc_v3_no_G_cleaned_UMI_20220201.txt.gz
+
