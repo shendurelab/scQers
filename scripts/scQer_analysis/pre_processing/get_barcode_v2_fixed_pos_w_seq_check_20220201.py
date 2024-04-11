@@ -59,7 +59,7 @@ if __name__ == '__main__':
 
         # only retain read if perfect match for sequence downstream of BC from constant region
         search_seq_start = barcode_start + barcode_length
-        search_seq_end = barcode_start + barcode_length + 1 + len(search_seq)
+        search_seq_end = barcode_start + barcode_length + len(search_seq)
         #print(search_seq)
         #print(seq)
         #print(seq[search_seq_start: search_seq_end])
