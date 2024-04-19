@@ -1,0 +1,38 @@
+import os 
+import sys
+import pandas as pd
+
+filepaths_df=config["filepaths_df"]
+output_directory=config["output_directory"]
+reference_data=config["reference_data"]
+filepaths_df=config["filepaths_df"]
+
+#rename temp_file
+#add more comments in general
+#say what is key, what is value
+#read into pandas dataframe, then turn those two columns into a dictionary
+
+filepaths_dataframe = pd.read_csv(filepaths_df)
+
+IDs = list(filepaths_dataframe['ID'])
+print('Running on samples:{}'.format(IDs))
+
+filepaths_dictionary = filepaths_dataframe.set_index("ID")['Type'].to_dict()
+print("filepaths_dictionary", filepaths_dictionary)
+barcode_types = [*filepaths_dictionary.values()]
+
+print("barcode_types", barcode_types)
+    
+include: 'rules/cellranger.smk'
+include: 'rules/get_barcodes.smk'
+include: 'rules/clean_umis.smk'
+
+#put all of the rules in the same snakemake?
+
+rule all:
+    input:
+        expand(config["input_directory"] + "{ID}" + "/" + "{ID}" + "_S1_L001_R1_001.fastq", ID = IDs),
+        expand(config["output_directory"] + "/" + "{ID}" + "/outs/possorted_genome_bam.bam", ID = IDs),
+        expand(config["output_directory"] + "/" + "{ID}" + "/outs/" + "{ID}" + "_get_bc_v3.txt", ID = IDs),
+        expand(config["output_directory"] + "/" + "{ID}" + "/outs/" + "{ID}" + "_get_bc_v3_no_G.txt", ID = IDs),
+        expand(config["output_directory"] + "/" + "{ID}" + "/outs/" + "{ID}" + "_get_bc_v3_no_G_cleaned_UMI.txt", ID = IDs) 
