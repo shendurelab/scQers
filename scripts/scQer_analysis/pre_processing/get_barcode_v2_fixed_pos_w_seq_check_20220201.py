@@ -28,7 +28,7 @@ if __name__ == '__main__':
 
     
     ############################################################
-    # tallying up UMIs observed in cells for each mBC
+    # tallying up UMIs observed in cells for each reporter BC (mBC or oBC). We use mBC as variable name in throughout this script.
     ############################################################
     
     mutation_barcodes = {}
@@ -98,7 +98,9 @@ if __name__ == '__main__':
         
     output_file=open(output_file_name, 'w')
     original_stdout = sys.stdout
-    output_file.write('\t'.join(['cBC','mBC','n_reads','n_UMI','n_reads_filtered','n_UMI_filtered','list_reads_per_UMIs','list_reads_per_UMIs_filtered'])+'\n')
+
+    # cBC stands for cell barcode, BC stands for the reporter barcode (either mBC or oBC, denoted mBC throughout the script)
+    output_file.write('\t'.join(['cBC','BC','n_reads','n_UMI','n_reads_filtered','n_UMI_filtered','list_reads_per_UMIs','list_reads_per_UMIs_filtered'])+'\n')
 
     for cell in mutation_barcodes:
 
