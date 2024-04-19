@@ -103,6 +103,6 @@ output_file2_name=${dir_get_bc_out}${LOOKUP}"_get_bc_v3_no_G_cleaned_UMI_"${date
 Rscript --vanilla /net/shendure/vol1/home/lalannej/vol10_projects_JB/seq015_mEB_crisprQTL_miniPilot_GFP_amplicons/nobackup/demux_fastq/clean_up_UMI_counts_v3_20220126.R \
 	${output_file1_name_no_G} \
 	${output_file2_name} \
-	mBC
+	BC
 
 
