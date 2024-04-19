@@ -1,7 +1,5 @@
-#!/usr/bin/env bash
+#!/bin/bash
+conda init bash 
+conda activate snakemake
 
-# conda activate snakemake
-# snakemake --configfile config/pcqtl.yaml --cores 10 --use-conda --profile scg --resources -j 100 --cluster-cancel scancel
-
-# conda activate snakemake_7.32
-snakemake --config config/config.yaml --profile config/slurm_scg -nfp
+snakemake --configfile "/home/maurertm/smontgom/maurertm/MPRA/MPRA_snakemake_pipeline/config/config.yaml" -c 2 --profile "/home/maurertm/smontgom/maurertm/MPRA/MPRA_snakemake_pipeline/config/slurm_scg/"
