@@ -1,4 +1,6 @@
 #!/bin/bash
+
+if conda info --envs | grep -q snakemake; then echo "snakemake environment already exists"; else conda env create -f environment.yaml; fi
 conda init bash 
 conda activate snakemake
 
