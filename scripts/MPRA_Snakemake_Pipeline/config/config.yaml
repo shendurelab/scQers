@@ -1,4 +1,4 @@
-input_directory: "/home/maurertm/smontgom/maurertm/MPRA/MPRA_snakemake_pipeline/data/downsampled/"
-output_directory: "/home/maurertm/smontgom/maurertm/MPRA/MPRA_snakemake_pipeline/output/output_try_14"
-reference_data: "/home/maurertm/smontgom/maurertm/MPRA/MPRA_snakemake_pipeline/data/reference_data/refdata-gex-GRCm39-2024-A"
-filepaths_df: "/home/maurertm/smontgom/maurertm/MPRA/MPRA_snakemake_pipeline/config/filepaths.csv"
+input_directory: "/your/input/directory/"
+output_directory: "/your/output/directory"
+reference_data: "/directory/with/reference/data"
+filepaths_df: "/csv/with/your/filepaths.csv"
