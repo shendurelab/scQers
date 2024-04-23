@@ -1,4 +1,4 @@
-name: snakemake
+name: maggie_snakemake
 channels:
   - dnachun
   - conda-forge
