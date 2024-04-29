@@ -1,4 +1,3 @@
-
 import argparse
 import pysam
 import sys
@@ -161,9 +160,3 @@ if __name__ == '__main__':
                print(*str_list_umi_counts,sep=",",end="\t")
                print(*str_list_umi_counts_filtered,sep=",")
                sys.stdout = original_stdout
-
-
-        
-        
-        
-        
