@@ -1,11 +1,11 @@
 cluster:
-  mkdir -p ./logs/{rule} &&
+  mkdir -p ../logs/{rule} &&
   sbatch
     --partition={resources.partition}
     --time={resources.time}
     --job-name={rule}.{wildcards}
-    --output=./logs/{rule}/%j.out
-    --error=./logs/{rule}/%j.err
+    --output=../logs/{rule}/%j.out
+    --error=../logs/{rule}/%j.err
     --parsable
     --mem={resources.mem}
     --gpus-per-task={resources.gpus}
