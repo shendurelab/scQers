@@ -2,11 +2,17 @@ library(tidyverse)
 library(tictoc)
 library(stringdist)
 library(igraph)
+library(argparser)
 
-args <- commandArgs(trailingOnly=TRUE)
-file_name <- args[1]
-file_name_corrected <- args[2]
-variable_name <- args[3]
+parser <- arg_parser("Script to clean up UMIs") %>%
+    add_argument("--file_name", help = "File name") %>%
+    add_argument("--file_name_corrected", help = "File name corrected") %>%
+    add_argument("--variable_name", help = "Variable name") 
+
+parsed_args <- parse_args(parser)
+file_name <- parsed_args$file_name
+file_name_corrected <- parsed_args$file_name_corrected
+variable_name <- parsed_args$variable_name
 
 df_get_bc_v2 <- read.table(file_name,header=TRUE, sep="\t")
 
@@ -59,9 +65,3 @@ for (ind in seq(n_cBC_mBC)){
 df_get_bc_v2_2 <- df_get_bc_v2 %>% transform(filtered_corrected_UMIs=corrected_UMI)
 df_out <- df_get_bc_v2_2 %>% select(c("cBC",variable_name,"n_reads_filtered","n_UMI_filtered","filtered_corrected_UMIs"))
 write.table(df_out,file_name_corrected, quote=FALSE, row.names=FALSE, col.names=TRUE, sep="\t")
-
-
-
-
-
-
