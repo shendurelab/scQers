@@ -1,0 +1,4 @@
+input_directory: "/your/input/directory"
+output_directory: "/your/output/directory"
+reference_data: "/directory/with/reference/data"
+filepaths_df: "/csv/with/your/filepaths.csv"
