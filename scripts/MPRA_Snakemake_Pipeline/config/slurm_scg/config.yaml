@@ -6,8 +6,8 @@ cluster:
     --account={resources.account}
     --time={resources.time}
     --job-name={rule}.{wildcards}
-    --output=./logs/{rule}/%j.{wildcards}.out
-    --error=./logs/{rule}/%j.{wildcards}.err
+    --output=../logs/{rule}/%j.{wildcards}.out
+    --error=../logs/{rule}/%j.{wildcards}.err
     --mem-per-cpu={resources.mem}
     --nodes={resources.nodes}
     --cpus-per-task={resources.threads}
