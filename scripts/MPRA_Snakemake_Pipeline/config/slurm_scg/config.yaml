@@ -1,6 +1,6 @@
 # helpful to give path e.g. if you write to scratch/not in current dir
 cluster:
-  mkdir -p ./logs/{rule} &&
+  mkdir -p ../logs/{rule} &&
   sbatch
     --partition={resources.partition}
     --account={resources.account}
@@ -15,7 +15,7 @@ cluster:
 default-resources:
   - partition=batch
   - account=smontgom
-  - time="00:10:00"
+  - time="02:00:00"
   - mem="64G"
   - nodes=1
   - threads=1
@@ -26,7 +26,7 @@ keep-going: True
 rerun-incomplete: True
 printshellcmds: True
 scheduler: greedy
-#use-conda: True
+use-conda: True
 # Singularity args (binds to oak)
 #use-singularity: True
 #singularity-args: "-B /oak:/oak"
