@@ -43,21 +43,6 @@ while true; do
             exit 1
     esac
 done
-
-#################################---Step 3: Load Conda Snakemake Environemnt---###################################################
-#if conda info --envs | grep -q maggie_snakemake; then echo "maggie_snakemake environment already exists"; else conda env create -f environment.yaml; fi
-#if conda info --envs | grep -q maggie_python; then echo "maggie_python environment already exists"; else conda env create -f environment.yaml; fi
-#check for second conda env
-
-#if echo $profile | grep -q "slurm_scg"; then
-#. "$HOME/micromamba/etc/profile.d/mamba.sh"
-#. "$HOME/micromamba/etc/profile.d/conda.sh"
-#elif echo $profile | grep -q "slurm_sherlock"; then
-#. "scratch/groups/caseyg21/conda_settings/micromamba/etc/profile.d/mamba.sh"
-#. "scratch/groups/caseyg21/conda_settings/micromamba/etc/profile.d/conda.sh"
-#fi
-
-#mamba activate maggie_snakemake
     
 ########################################---Step 4: Get Number of Cores---#########################################################
 #This is based on the number of directories in the input_directory (as defined by the config file)
@@ -75,7 +60,8 @@ if [ -z $config_file ]; then
     exit 1
 elif [ -z $profile ]; then
     echo "no profile selected"
-    micromamba run -n snakemake snakemake --configfile ${config_file} -c ${no_cores} --use-conda
+    micromamba run -n snakemake7 snakemake --configfile ${config_file} -c ${no_cores}
 else 
-    micromamba run -n snakemake snakemake --configfile ${config_file} -c ${no_cores} --profile ${profile} --use-conda
+    micromamba run -n snakemake7 snakemake --configfile ${config_file} -c ${no_cores} --profile ${profile}
 fi
+
