@@ -6,19 +6,19 @@ import pandas as pd
 input_directory=config["input_directory"]
 output_directory=config["output_directory"]
 reference_data=config["reference_data"]
-filepaths_df=config["filepaths_df"]
+sample_file=config["sample_file"]
 
 #########################################---Step 1: Define Wildcard---############################################################
-filepaths_dataframe = pd.read_csv(filepaths_df)
+samples_dataframe = pd.read_csv(sample_file)
 
-IDs = list(filepaths_dataframe['ID'])
+IDs = list(samples_dataframe['ID'])
 print('Running on samples:{}'.format(IDs))
 
 ########################################---Step 1: Define Dictionary---###########################################################
-#this dictionary maps the sampleIDs in filepaths_dictionary to their corresponding barcode type
+#this dictionary maps the sampleIDs in samples_dictionary to their corresponding barcode type
 #these values will be passed on to get_barcodes.smk and clean_umis.smk to select further parameters
-filepaths_dictionary = filepaths_dataframe.set_index("ID")['Type'].to_dict()
-barcode_types = [*filepaths_dictionary.values()]
+samples_dictionary = samples_dataframe.set_index("ID")['Type'].to_dict()
+barcode_types = [*samples_dictionary.values()]
 
 ###########################################---Step 1: Define Rules--##############################################################
 include: 'rules/cellranger.smk'
@@ -27,8 +27,11 @@ include: 'rules/clean_umis.smk'
 
 rule all:
     input:
-        expand(config["input_directory"] + "/" + "{ID}" + "/" + "{ID}" + "_S1_L001_R1_001.fastq", ID = IDs),
         expand(config["output_directory"] + "/" + "{ID}" + "/outs/possorted_genome_bam.bam", ID = IDs),
         expand(config["output_directory"] + "/" + "{ID}" + "/outs/" + "{ID}" + "_get_bc_v3.txt", ID = IDs),
         expand(config["output_directory"] + "/" + "{ID}" + "/outs/" + "{ID}" + "_get_bc_v3_no_G.txt", ID = IDs),
         expand(config["output_directory"] + "/" + "{ID}" + "/outs/" + "{ID}" + "_get_bc_v3_no_G_cleaned_UMI.txt", ID = IDs)
+
+#run his script on the two files he gave us to compare output
+#meet with Evin about the stats changes, include Libby
+        

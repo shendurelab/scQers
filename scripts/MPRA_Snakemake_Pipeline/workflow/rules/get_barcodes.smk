@@ -2,11 +2,11 @@ rule get_barcodes:
     input:
         input_file = (config["output_directory"] + "/" + "{ID}" + "/" + "outs/possorted_genome_bam.bam")
     params:
-        barcode = lambda wildcards: filepaths_dictionary[wildcards.ID]
+        barcode = lambda wildcards: samples_dictionary[wildcards.ID]
     output:
         output_file = (config["output_directory"] + "/" + "{ID}" + "/outs/" + "{ID}" + "_get_bc_v3.txt")
     conda:
-        'maggie_python'
+        '/home/maurertm/micromamba/envs/scqers'
     shell:""" 
  
     if [ {params.barcode} == "m" ]; then
@@ -23,7 +23,7 @@ rule get_barcodes:
 
     echo "getting barcodes from cellRanger bam"
         
-    python scripts/get_barcode_v2_fixed_pos_w_seq_check_20220201.py \
+    get_barcode_fixed_pos \
         --input_bam {input.input_file} \
         --output_file {output.output_file} \
         --barcode_length $barcode_length \
@@ -31,6 +31,8 @@ rule get_barcodes:
         --chimeric_threshold 0.20 \
         --search_seq $search_seq \
         --barcode_type $barcode_type
+
+    #email about params- chimeric threshold in particular
 
     echo "barcode retrieval complete"
     

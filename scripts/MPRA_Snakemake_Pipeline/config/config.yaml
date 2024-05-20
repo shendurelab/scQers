@@ -1,4 +1,4 @@
-input_directory: "/your/input/directory"
-output_directory: "/your/output/directory"
-reference_data: "/directory/with/reference/data"
-filepaths_df: "/csv/with/your/filepaths.csv"
+input_directory: "/oak/stanford/groups/smontgom/maurertm/MPRA/scQers/scripts/MPRA_Snakemake_Pipeline/data/downsampled"
+output_directory: "/oak/stanford/groups/smontgom/maurertm/MPRA/scQers/scripts/MPRA_Snakemake_Pipeline/output/full_output2"
+reference_data: "/oak/stanford/groups/smontgom/maurertm/MPRA/scQers/scripts/MPRA_Snakemake_Pipeline/data/reference_data/refdata-gex-GRCm39-2024-A"
+sample_file: "/oak/stanford/groups/smontgom/maurertm/MPRA/scQers/scripts/MPRA_Snakemake_Pipeline/config/samples.csv"

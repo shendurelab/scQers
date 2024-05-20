@@ -1,0 +1,4 @@
+input_directory: "/home/maurertm/smontgom/maurertm/MPRA/scQers/scripts/gene_expression_processing/data/samples"
+output_directory: "/home/maurertm/smontgom/maurertm/MPRA/scQers/scripts/gene_expression_processing/output/output_try2"
+reference_data: "/home/maurertm/smontgom/maurertm/MPRA/scQers/scripts/gene_expression_processing/data/reference_data/refdata-gex-GRCm39-2024-A"
+sample_file: "/home/maurertm/smontgom/maurertm/MPRA/scQers/scripts/gene_expression_processing/config/samples.csv"

@@ -1,0 +1,24 @@
+import os 
+import sys
+import pandas as pd
+
+###################################---Step 1: Define all Config Variables---######################################################
+input_directory=config["input_directory"]
+output_directory=config["output_directory"]
+reference_data=config["reference_data"]
+sample_file=config["sample_file"]
+
+#########################################---Step 1: Define Wildcard---############################################################
+samples_dataframe = pd.read_csv(sample_file)
+
+IDs = list(samples_dataframe['ID'])
+print('Running on samples:{}'.format(IDs))
+
+###########################################---Step 1: Define Rules--##############################################################
+include: 'rules/cellranger.smk'
+
+rule all:
+    input:
+        expand(config["output_directory"] + "/" + "{ID}" + "/outs/possorted_genome_bam.bam", ID = IDs)
+
+        
